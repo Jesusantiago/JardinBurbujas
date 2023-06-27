@@ -1,0 +1,63 @@
+@import url(../StyleMobile/communityMobile.css);
+
+@media screen and (min-width: 769px){
+    .community{    
+        width: 100%;
+        height: 100vh;
+        padding: var(--padding-margin);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .community__title{
+        text-align: center;
+        width: 100%;
+        margin-top: 5rem;
+        font-size: var(--title-font);
+        font-weight: var(--title-weight);
+    }
+
+    .community__img{
+        background-image: url(../img/community.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .community__cards{
+        width: 100%;
+        height: auto;
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+    }
+
+    .cards__community{
+        display: inline-block;
+        width: 24%;
+        height: auto;
+    }
+
+
+
+    .title__community{
+
+        text-align: center;
+        height: 10rem;
+    }
+
+    .cards__community_img{
+        background-image: url(../img/mayorque.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 3.25rem;
+        height: 10.6rem;
+        cursor: pointer;
+    }
+}    

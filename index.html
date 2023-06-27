@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME - Jardín Burbujas</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,800;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="./Style/normalize.css" />
+    <link rel="stylesheet" href="./Style/variables.css" />
+    <link rel="stylesheet" href="./Style/header.css" />
+    <link rel="stylesheet" href="./Style/present.css" />
+    <link rel="stylesheet" href="./Style/interest.css" />
+    <link rel="stylesheet" href="./Style/card.css" />
+    <link rel="stylesheet" href="./Style/offer.css" />
+    <link rel="stylesheet" href="./Style/community.css" />
+    <link rel="stylesheet" href="./Style/newsletter.css" />
+    <link rel="stylesheet" href="./Style/footer.css" />
+
+    <link rel="stylesheet" href="./Style/variablesForm.css" />
+    <link rel="stylesheet" href="./Style/form.css" />
+    <link rel="stylesheet" href="./Style/popup.css" />
+
+
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+  </head>
+
+  <body class="body" id="body">
+
+    <header class="header">
+      <div class="header__logo"></div>
+      <h1 class="header__title">Jardín burbujas</h1>
+
+      <nav class="header__nav" id="burger__items">
+        <ul class="header__nav_list">
+          <li class="seccion"><a href="#interest" class="seccion">Nosotros</a></li>
+          <li class="seccion"><a href="#cards" class="seccion">Educación</a></li>
+          <li class="seccion"><a href="#offer" class="seccion">Admisiones</a></li>
+          <li class="seccion"><a href="#community" class="seccion">Comunidad</a></li>
+        </ul>
+      </nav>
+      <div class="header__burger" id="burger__menu">
+        <span class="header__span__burger"></span>
+        <span class="header__span__burger"></span>
+        <span class="header__span__burger"></span>
+      </div>
+    </header>
+
+    
+    <div class="present" id="present">
+      <div class="form__popup" id="form__popup"></div>
+      <div class="present__background"></div>
+
+      <div class="present__div">
+        <p class="present__div_text">
+          Creemos en la importancia de alentar a las infancias a descubrirse a
+          ellos y al mundo que los rodea mediante el juego, la empatía y la
+          curiosidad.
+        </p>
+
+        <p class="present__div_text_secundary">
+          Animate a dar el siguiente paso hacia una educación excepcional para
+          tus hijos
+        </p>
+
+        <input
+          type="button"
+          class="present__div_button"
+          value="Contactanos"
+          id="btn"
+        />
+      </div>
+
+      <div class="present__img"></div>
+    </div>
+
+    <div class="interest" id="interest">
+      <h2 class="interest__title">¿Por qué elegirnos?</h2>
+
+      <div class="interest__cards">
+        <div class="cards__cards">
+          <div class="education__img"></div>
+          <div class="education__text">
+            <h1 class="card__title">Educación holística</h1>
+            <p class="card__paragraph">
+              Consideramos a las infancias en todas sus dimensiones: física
+              intelectual, emocional y religiosa.
+            </p>
+          </div>
+        </div>
+
+        <div class="cards__cards">
+          <div class="learn__img"></div>
+          <div class="learn__text">
+            <h1 class="card__title">Aprender haciendo</h1>
+            <p class="card__paragraph">
+              Acompañamiento constante de nuestros maestros y un ambiente de
+              aprendizaje lúdico
+            </p>
+          </div>
+        </div>
+
+        <div class="cards__cards">
+          <div class="various__img"></div>
+          <div class="various__text">
+            <h1 class="card__title">Diversos programas</h1>
+            <p class="card__paragraph">
+              Contamos con diversidad de actividades que ayudan a los niños a
+              enriquecer su mente y sus capacidades.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards" id="cards">
+      <div class="background__two-1"></div>
+      <h2 class="cards__title">¿Por qué elegirnos?</h2>
+
+      <div class="cards__card">
+
+        <div class="phisiology__card card">
+          <div class="phisiology__img"></div>
+          <h3 class="cards__card__title">Nuestra filosofía</h3>
+        </div>
+
+        <div class="team__card card">
+          <div class="team__img"></div>
+          <h3 class="cards__card__title">Nuestro equipo</h3>
+        </div>
+
+        <div class="place__card card">
+          <div class="place__img"></div>
+          <h3 class="cards__card__title">Nuestro lugar</h3>
+        </div>
+
+      </div>
+
+      <div class="div_input__button_mobile">
+
+        <h3 class="input__title_mobile">¿Querés saber aún más</h3>
+
+        <input type="button" class="button__offer" value="Nuestros programas"></input>
+
+        <input type="button" class="button__newsletter" value="Newsletter"></input>
+      </div>
+
+    </div>
+
+    <div class="offer" id="offer">
+      <div class="background__two-2"></div>
+      <h2 class="offer__title">Programas que ofrecemos</h2>
+
+      <div class="offer__card">
+        <div class="physicalEducation card__offer">
+          <div class="physical__img"></div>
+          <h3 class="physical__title card__offer_title">Educación fisica</h3>
+        </div>
+
+        <div class="english card__offer">
+          <div class="english__img"></div>
+          <h3 class="english__title card__offer_title">Inglés para niños</h3>
+        </div>
+
+        <div class="theater card__offer">
+          <div class="theater__img"></div>
+          <h3 class="teather__title card__offer_title">Teatro</h3>
+        </div>
+
+        <div class="music card__offer">
+          <div class="music__img"></div>
+          <h3 class="music__title card__offer_title">Música</h3>
+        </div>
+
+        <div class="crafts card__offer">
+          <div class="crafts__img"></div>
+          <h3 class="crafts__title card__offer_title">Manualidades</h3>
+        </div>
+
+        <div class="garden card__offer">
+          <div class="garden__img"></div>
+          <h3 class="garden__title card__offer_title">Jardinería</h3>
+        </div>
+      </div>
+
+      <input type="button" value="Aplica online" class="offer__button" />
+    </div>
+
+    <div class="community" id="community">
+      <h1 class="community__title">
+        ¡Conoce lo que dicen otros padres de nuestra comunidad
+      </h1>
+
+      <div class="community__img"></div>
+
+      <div class="community__cards">
+        <div class="cards__community">
+          <p class="paragraph__community">
+            “Mis hijos siempre se sintieron respetados y con increíbles ganas de
+            aprender en el Jardín Burbujas. Los maestros tienen un curriculum
+            impecable y siempre podes estar en contacto con ellos ante cualquier
+            duda.”<br />
+          </p>
+          <h3 class="title__community">
+            Silvina <br />
+            mamá de Mora y Santiago
+          </h3>
+        </div>
+
+        <div class="cards__community">
+          <p class="paragraph__community">
+            “Mi nena está encantada con el método de enseñanza que tienen en
+            Burbujas. Siempre cuando llega a casa la noto entusiasmada y más
+            curiosa, siempre espera para volver. Los maestros son excelentes”<br />
+          </p>
+          <h3 class="title__community">
+            Verónica <br />
+            mamá de Luna
+          </h3>
+        </div>
+
+        <div class="cards__community">
+          <p class="paragraph__community">
+            “Lo que más destaco siempre del Jardín Burbujas es la calidez de
+            todos los que trabajan allí y las instalaciones tan bien equipadas
+            para los nenes. Tienen un montón de espacios verdes y actividades al
+            aire libre que a mi nene le encanta, aprende un montón y gasta
+            energía con su curiosidad. <br />Los elegiría mil veces.” <br />
+          </p>
+          <h3 class="title__community">Marcos<br />papá de Fausto</h3>
+        </div>
+
+        <div class="cards__community_img"></div>
+      </div>
+    </div>
+
+    
+    <div class="newsletter">
+      <div class="background__three"></div>
+      <div class="newsletter__text">
+        <h2 class="newsletter__title">Suscribite a nuestro newsletter</h2>
+        <p class="newsletter__paragraph">
+          Suscribite al newsletter de Jardín Burbujas para obtener información
+          sobre nuestra escuela, noticias y próximos eventos
+        </p>
+      </div>
+
+      <div class="newsletter__form">
+        <form action="" class="form__newsletter">
+          <label for="Email" class="label__email"
+            >Dirección de email (obligatorio)<input
+              type="email"
+              name="Email"
+              id="Email"
+              class="input__email"
+              placeholder="su.email@gmail.com"
+              required
+            />
+          </label>
+
+          <label for="Name" class="label__name"
+            >Nombre completo (obligatorio)<input
+              type="text"
+              name=""
+              id=""
+              class="input__name"
+              placeholder="Escriba su nombre completo"
+              required
+          /></label>
+
+          <input class="input__button" type="button" value="Suscribirme" />
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h1 class="footer__title">JARDIN BURBUJAS</h1>
+      <div class="footer__inf">
+        <div class="inf__card">
+          <div class="email__img"></div>
+          <div class="email__text">Email</div>
+          <div class="email__text__email">
+            <span class="span__footer">jardinburbujas.gmail.com</span>
+          </div>
+        </div>
+
+        <div class="inf__card">
+          <div class="call__img"></div>
+          <div class="call__text">Llamanos</div>
+          <div class="call__text_call">
+            <span class="span__footer">+54 11 8730497</span>
+          </div>
+        </div>
+
+        <div class="inf__card">
+          <div class="location__img"></div>
+          <div class="location__text">Encuentranos</div>
+          <div class="location__text__location">
+            <span class="span__footer"
+              >Manzanares 1234 <br />
+              Núñez, Buenos Aires</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_line"></div>
+
+      <div class="footer__date">
+        <div class="date__footer">
+          <span class="span__date">Galería</span>
+          <span class="span__date">Contactanos</span>
+          <span class="span__date">Política de privacidad</span>
+        </div>
+
+        <div class="social__footer">
+          <h2 class="date__title">Visita nuestra redes sociales</h2>
+          <div class="icon__social">
+            <div class="social__img facebook"></div>
+            <div class="social__img instagram"></div>
+            <div class="social__img twitter"></div>
+          </div>
+        </div>
+
+        <div class="map__img">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11722.075935737716!2d-58.56066248764361!3d-34.467458740797426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1ses-419!2sar!4v1679107149007!5m2!1ses-419!2sar"
+            width="200"
+            height="100"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map__img"
+          ></iframe>
+        </div>
+      </div>
+      <div class="copyright">Copyright 2023 Jardín Burbujas</div>
+    </footer>
+
+    
+    <!-- <script src="./form.js"></script> -->
+    <script src="index.js"></script>
+  </body>
+</html>

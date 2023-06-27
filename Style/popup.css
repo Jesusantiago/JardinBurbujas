@@ -1,0 +1,121 @@
+.div__popup{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.647);
+}
+
+.form__popup__none{
+  display: none;
+}
+
+.container {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  padding: 4em 0;
+  background-color: rgba(249, 235, 255, 0.69);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden auto;
+}
+
+.container--active {
+  display: flex;
+  justify-content: center;
+}
+
+.pop-up {
+  max-width: 39.75em;
+  height: 45.375em;
+  margin: auto 2em;
+  padding: 4em;
+  border-radius: 80px;
+  background-color: var(--primary-color-white);
+  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.pop-up__img {
+  max-width: 11em;
+  border-radius: 40px;
+}
+
+.pop-up__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.pop-up__paragraph {
+  text-align: center;
+  line-height: 27px;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+.form__button--popup {
+  width: 244px;
+  padding: 0.875em;
+  border-radius: 50px;
+  margin: 0.3em;
+  border: none;
+  border-radius: var(--border-radius-form);
+  background-color: var(--secondary-color-orange);
+  color: var(--primary-color-white);
+
+  text-align: center;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 1.5em;
+
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.container::-webkit-scrollbar {
+  width: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+  .pop-up {
+    max-width: 39.75em;
+    height: 35em;
+    margin: auto 1.5em;
+    padding: 1.5em;
+    border-radius: 80px;
+    background-color: var(--primary-color-white);
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.12);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .pop-up__img {
+    max-width: 7em;
+    border-radius: 40px;
+  }
+  
+}

@@ -1,0 +1,69 @@
+@import url(../StyleMobile/presentMobile.css);
+
+
+@media screen and (min-width: 769px){
+    .present{
+        padding: var(--padding-margin);
+        height: calc(100vh - 11.5rem);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .present__background{
+        width: 100%;
+        min-height: 110vh;
+        position: absolute;
+        background-image: url(../img/background-One.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        top: 7rem;
+    }
+
+    .present__div{
+        width: 60%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .present__div_text{
+        width: 100%;
+        font-weight: var(--title-weight) ;
+        font-size: var(--title-font);
+    }
+
+    .present__div_text_secundary{
+        font-size: var(--subtitle-font);
+        font-weight: var(--paragraph-weight);
+        color: var(--c-paragraph);
+    }
+
+    .present__div_button{
+        width: 10em;
+        height: 2.2em;
+        border-radius: 1em;
+        border: 0px;
+        font-size: var(--text-button);
+        font-weight: var(--text-button-weight);
+        color: white;
+        background-color: var(--bgc-button);
+        cursor: pointer;
+    }
+
+
+    .present__img{
+        min-width: 40%;
+        min-height: 100%;
+        background-image:url(../img/present__img.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

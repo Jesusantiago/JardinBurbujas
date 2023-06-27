@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px){
+    .interest{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: var(--padding-margin-mobile);
+    }
+
+    .interest__title{
+        text-align: center;
+        width: 100%;
+        margin-top: var(--margin-top-mobile);
+        margin-bottom: 0;
+        font-size: var(--title-font-mobile);
+        font-weight: var(--title-weight);
+    }
+
+    .interest__cards{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cards__cards{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education__img{
+        width: 8em;
+        height: 8em;
+        background-image: url(../img/education.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card__title{
+        font-size: var(--title-font-mobile);
+        font-weight: var(--title-weight);
+        text-align: center;
+    }
+
+    .card__paragraph{
+        font-size: var(--paragraph-font-mobile);
+        font-weight: var(--paragraph-weight);
+        text-align: center;
+        color: var(--c-paragraph);
+    }
+
+
+    .learn__img{
+        width: 8em;
+        height: 8em;
+        background-image: url(../img/learn.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .various__img{
+        width: 8em;
+        height: 8em;
+        background-image: url(../img/various.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

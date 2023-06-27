@@ -1,0 +1,104 @@
+@import url(../StyleMobile/newsletterMobile.css);
+
+@media screen and (min-width: 769px){
+
+    .background__three{
+        width: 100%;
+        height: 56vh;
+        background-image: url(../img/background-three-otro.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        z-index: -2000;
+        left: 0;
+    } 
+
+    .newsletter{
+        width: 100%;
+        height: 50vh;
+        padding: var(--padding-margin);
+        display: flex;
+        align-items: center;
+        row-gap: 4rem;
+
+        /* background-image: url(../img/TEST-background-three.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+    }
+
+    .newsletter__text{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .newsletter__title{
+        font-size: var(--title-font);
+        font-weight: var(--title-weight);
+    }
+
+    .newsletter__paragraph{
+        font-size: var(--subtitle-font);
+        font-weight: var(--subtitle-weight);
+    }
+
+    .newsletter__form{
+        display: flex;
+        justify-content: end;
+        width: 80%;
+        height: 50%;
+    }
+
+    .form__newsletter{
+        height: 100%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .label__email{
+        width: 100%;
+        font-size: var(--labels);
+        font-weight: var(--label-weight);
+        text-align: center;
+    }
+
+    .input__email{
+        width: 100%;
+        height: 2.5em;
+        margin-top: .5rem;
+        border-radius: 10px;
+    }
+
+    .label__name{
+        font-size: var(--labels);
+        font-weight: var(--label-weight);
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .input__name{
+        width: 100%;
+        margin-top: .5rem;
+        height: 2.5em;
+        border-radius: 10px;
+    }
+
+    .input__button{
+        width: 100%;
+        height: 3rem;
+        margin-top: 2rem;
+        font-size: var(--text-button);
+        font-weight: var(--text-button-weight);
+        background-color: var(--bgc-button);
+        border-radius: .7rem;
+        color: white;
+        cursor: pointer;
+    }
+}

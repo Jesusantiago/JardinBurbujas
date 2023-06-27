@@ -1,0 +1,19 @@
+:root {
+  /* Colors */
+  --primary-font: "Nunito", sans-serif;
+  --primary-color-white: rgb(255, 255, 255);
+  --primary-color-black: rgb(30, 30, 30);
+  --primary-color-pink: rgba(249, 235, 255, 1);
+  --primary-color-grey: rgb(217, 217, 217);
+  --secondary-color-grey: rgb(108, 114, 127);
+  --secondary-color-orange: rgb(246, 165, 12);
+  --secondary-color-light-grey: rgb(181, 184, 191);
+
+  /* Font size */
+  --font-size-title: 1.2em;
+  --font-size-subtitle: 1em;
+  --font-size-label: 1em;
+
+  /*  */
+  --border-radius-form: 10px;
+}

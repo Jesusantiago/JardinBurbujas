@@ -1,0 +1,100 @@
+@import url(../StyleMobile/cardMobile.css);
+
+@media screen and (min-width: 769px){
+    .background__two-1{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/background-two-1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        position: absolute;
+        z-index: -10000;
+        transform: scaleX(2);
+    }
+
+    .cards{
+        width: 100%;
+        min-height: 100vh;
+        padding: var(--padding-margin);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards__title{
+        text-align: center;
+        width: 100%;
+        margin-top: 6rem;
+        font-size: var(--title-font);
+        font-weight: var(--title-weight);
+    }
+
+    .cards__card{
+        min-width: 100%;
+        margin-top: 14em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .card{
+        min-width: 380px;
+        background-color: #F9F9F9;
+        border-radius: 2em;
+        display: flex;
+        flex-direction: column; 
+        transition: all ease 1s;
+        cursor: pointer;
+    }
+
+    .card:hover{
+        scale: 1.2;
+    }
+
+    .phisiology__img{
+        min-width: 380px;
+        height: 14em;
+        background-image: url(../img/phisiology.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .cards__card__title{
+        text-align: center;
+        font-size: var(--subtitle-font);
+        font-weight: var(--subtitle-weight);
+    }
+
+    .team__img{
+        min-width: 380px;
+        height: 14em;
+        background-image: url(../img/team.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+    .place__img{
+        min-width:380px;
+        height: 14em;
+        background-image: url(../img/place.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .div_input__button{
+        display: none;
+    }
+
+    .div_input__newsletter{
+        display: none;
+    }
+}

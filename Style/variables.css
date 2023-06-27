@@ -1,0 +1,53 @@
+:root {
+  --padding-margin: 0 6.25em;
+
+  --title-font: 32px;
+  --title-weight: 800;
+
+  --subtitle-font: 24px;
+  --subtitle-weight: 700;
+
+  --text-button: 24px;
+  --text-button-weight: 800;
+
+  --text-card: 24px;
+  --text-card-weight: 500;
+
+  --data-contact-footer: 24px;
+  --data-contact-footer-weight: 500;
+
+  --paragraph-font: 20px;
+  --paragraph-weight: 500;
+
+  --paragraph-weight-parents: 500;
+
+  --labels: 16px;
+  --label-weight: 300;
+
+  --bgc-button: #f6a50c;
+  --c-paragraph: #6c727f;
+
+  /* variable mobile */
+
+  --padding-margin-mobile: 0 1.5em;
+
+  --title-font-mobile: 22px;
+  --subtitle-font-mobile: 20px;
+  --margin-top-mobile: 3rem;
+
+
+
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: #1e1e1e;
+  scroll-behavior: smooth;
+  
+}
+
+.body{
+  overflow-x: hidden;
+}

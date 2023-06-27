@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px){
+    .background__three{
+        display: none;
+    }
+
+    .newsletter{    
+        display: none;
+    }
+}

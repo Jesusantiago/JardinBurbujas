@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Style/normalize.css" />
+    <link rel="stylesheet" href="../Style/form.css" />
+    <link rel="stylesheet" href="../Style/popup.css" />
+    <link rel="stylesheet" href="../Style/variablesForm.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Formulario - Jardín Burbujas</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="section">
+        <h1 class="section__title">
+          Para contactarnos, rellena el siguiente formulario y nos contactaremos
+          a la brevedad
+        </h1>
+        <form class="form">
+          <div class="personal-data">
+            <h2 class="form__subtitle">Datos personales</h2>
+            <ul class="data-list data-list--flex">
+              <li class="data">
+                <label class="data__label" for="name"
+                  >Nombre <span>(obligatorio)</span></label
+                >
+                <input
+                  id="name"
+                  class="data__input"
+                  type="text"
+                  name="nombre"
+                  placeholder="Escriba su nombre"
+                  title="Escriba su nombre"
+                  minlength="3"
+                  maxlength="50"
+                  required
+                />
+              </li>
+              <li class="data">
+                <label class="data__label" for="surname"
+                  >Apellido <span>(obligatorio)</span></label
+                >
+                <input
+                  id="surname"
+                  class="data__input"
+                  type="text"
+                  name="apellido"
+                  placeholder="Escriba su apellido"
+                  title="Escriba su apellido"
+                  minlength="3"
+                  maxlength="50"
+                  required
+                />
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-data">
+            <h2 class="form__subtitle">Datos de contacto</h2>
+            <ul class="data-list">
+              <li class="data">
+                <label class="data__label" for="email">
+                  E-mail <span>(obligatorio)</span></label
+                >
+                <div class="input-container">
+                  <input
+                    id="email"
+                    class="data__input data__input--padding"
+                    type="email"
+                    name="email"
+                    placeholder="suemail@gmail.com"
+                    title="Escriba su email"
+                    required
+                  />
+                  <img
+                    class="data__icon"
+                    src="../img/form-email.svg"
+                    alt="Icono email"
+                    draggable="false"
+                  />
+                </div>
+              </li>
+              <li class="data">
+                <label class="data__label" for="phone"
+                  >Teléfono o celular <span>(opcional)</span></label
+                >
+                <div class="input-container">
+                  <input
+                    id="phone"
+                    class="data__input data__input--padding"
+                    type="tel"
+                    name="telefono"
+                    placeholder="+54 11 123456789"
+                    title="Escriba su número de teléfono o celular"
+                    minlength="10"
+                    maxlength="13"
+                  />
+                  <img
+                    class="data__icon"
+                    src="../img/form-call.svg"
+                    alt="Icono telefono"
+                    draggable="false"
+                  />
+                </div>
+              </li>
+              <li class="data">
+                <label class="data__label" for="message"
+                  >Motivo de consulta <span>(obligatorio)</span></label
+                >
+                <textarea
+                  id="message"
+                  class="data__input data__input--height"
+                  name="mensaje"
+                  cols="22"
+                  rows="18"
+                  placeholder="Escriba su mensaje"
+                  title="Escriba su consulta"
+                  required
+                ></textarea>
+              </li>
+            </ul>
+          </div>
+          <button id="form-button" class="form__button" type="submit">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+    `
+
+    <!-- POP UP -->
+    <!-- <div id="popup" class="container">
+      <div class="pop-up">
+        <img
+          class="pop-up__img"
+          src="../img/thumb_up.png"
+          alt="Personaje pulgar arriba"
+        />
+        <h2 class="pop-up__title">¡Gracias por su consulta!</h2>
+        <p class="pop-up__paragraph">
+          A la brevedad nuestro equipo se comunicará para brindarte información
+          <br />
+          y guiarte en el proceso de admisión
+        </p>
+        <button
+          id="popup-button"
+          class="form__button form__button--popup"
+          type="button"
+        >
+          Regresar al inicio
+        </button>
+      </div>
+    </div> -->
+    <script src="../form.js"></script>
+  </body>
+</html>

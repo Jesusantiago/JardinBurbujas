@@ -1,0 +1,87 @@
+@import url(../StyleMobile/interestMobile.css);
+
+@media screen and (min-width: 769px){
+    .interest{
+        padding: var(--padding-margin);
+        min-width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .interest__title{
+        text-align: center;
+        width: 100%;
+        margin-top: 6rem;
+        font-size: var(--title-font);
+        font-weight: var(--title-weight);
+    }
+
+    .interest__cards{
+        min-width: 100%;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .cards__cards{
+        max-width: 320px;
+        min-height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all ease 1s ;
+        border: 1px solid rgb(249, 235, 255, 0);
+        border-radius: 3em;
+        cursor: pointer;
+    }
+
+    .cards__cards:hover{
+        border: 1px solid #f9ebff;
+        border-radius: 3em;
+        scale: 1.2;
+    }
+
+
+    .education__img{
+        width: 13em;
+        height: 13em;
+        background-image: url(../img/education.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card__title{
+        font-size: var(--title-font);
+        font-weight: var(--title-weight);
+        text-align: center;
+    }
+
+    .card__paragraph{
+        font-size: var(--paragraph-font);
+        font-weight: var(--paragraph-weight);
+        text-align: center;
+        color: var(--c-paragraph);
+    }
+
+    .learn__img{
+        width: 13em;
+        height: 13em;
+        background-image: url(../img/learn.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .various__img{
+        width: 13em;
+        height: 13em;
+        background-image: url(../img/various.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
