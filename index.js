@@ -71,7 +71,7 @@ a la brevedad
         />
         <img
         class="data__icon"
-        src="../img/form-email.svg"
+        src="./img/form-email.svg"
         alt="Icono email"
         draggable="false"
         />
@@ -95,7 +95,7 @@ a la brevedad
         />
         <img
         class="data__icon"
-        src="../img/form-call.svg"
+        src="./img/form-call.svg"
         alt="Icono telefono"
         draggable="false"
         />
